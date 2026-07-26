@@ -1,4 +1,3 @@
-cat << 'EOF' > /home/ubuntu/INSTAAPI/app/services/orchestrator.py
 from bson import json_util
 from datetime import datetime, timezone
 from app.cache.redis import redis_client
